@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1589839472 source:c:\users\marti\desktop\facultad\programacion 1\parcial 1 programación\herrera.pppig\parcial_herreramartin\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"notebook.h"
+
+1589839057 c:\users\marti\desktop\facultad\programacion 1\parcial 1 programación\herrera.pppig\parcial_herreramartin\notebook.h
+
+1589839568 source:c:\users\marti\desktop\facultad\programacion 1\parcial 1 programación\herrera.pppig\parcial_herreramartin\notebook.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"notebook.h"
+	"dataWarehouse.h"
+
+1589839521 c:\users\marti\desktop\facultad\programacion 1\parcial 1 programación\herrera.pppig\parcial_herreramartin\datawarehouse.h
+
