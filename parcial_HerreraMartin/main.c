@@ -5,7 +5,7 @@
 
 #define TAM 10
 
-int aplicarDescuento(float precio);
+float aplicarDescuento(float precio);
 
 int contarCaracteres(char cadena[], char letra);
 
@@ -13,11 +13,11 @@ int contarCaracteres(char cadena[], char letra);
 int main()
 {
     /////////////EJERCICIO 1
-    int precio = 100;
-    int conDescuento;
-    printf("Precio sin descuento: %d\n\n",precio);
+    float precio = 100;
+    float conDescuento;
+    printf("Precio sin descuento: %.2f\n\n",precio);
     conDescuento = aplicarDescuento(precio);
-    printf("Precio con el descuento del 5 porciento: %d\n\n",conDescuento);
+    printf("Precio con el descuento del 5 porciento: %.2f \n\n",conDescuento);
 
     //////////////////////////////
     /////////////EJERCICIO 2
@@ -45,10 +45,10 @@ int main()
     return 0;
 }
 
-int aplicarDescuento(float precio)
+float aplicarDescuento(float precio)
 {
-    int precioConDescuento;
-    int descuento;
+    float precioConDescuento;
+    float descuento;
     descuento = (float) (precio*5)/100;
     precioConDescuento = precio - descuento;
     return precioConDescuento;
